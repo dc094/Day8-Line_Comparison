@@ -7,7 +7,7 @@ public class LineEqualityUC2 {
         double a, b;
 
         a = (double) Math.floor(Math.sqrt(Math.pow(x2 - x1, 2)) + Math.pow(y2 - y1, 2) * 1.0);
-        b = (double) Math.floor(Math.sqrt(Math.pow(x4 - x3, 2)) + Math.pow(y4 - y2, 2) * 1.0);
+        b = (double) Math.floor(Math.sqrt(Math.pow(x4 - x3, 2)) + Math.pow(y4 - y3, 2) * 1.0);
 
         if (a == b) {
             System.out.println("Both lines are equal.");
